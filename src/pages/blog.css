@@ -7,7 +7,7 @@
 
 .blog-title {
   font-size: 2rem;
-  margin-bottom: 0.2rem; /* less top margin */
+  margin-bottom: 0.2rem;
   color: #fff;
 }
 
@@ -94,4 +94,153 @@
   bottom: -0.5rem;
   font-size: 0.7rem;
   color: #aaa;
+}
+
+/* ============================================
+   RESPONSIVE STYLES - TABLET
+   ============================================ */
+@media screen and (max-width: 1024px) {
+  .blog-section {
+    padding: 2.5rem 6%;
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .blog-post {
+    padding: 1.5rem;
+  }
+}
+
+/* ============================================
+   RESPONSIVE STYLES - MOBILE (LARGE)
+   ============================================ */
+@media screen and (max-width: 768px) {
+  .blog-section {
+    padding: 2rem 5%;
+  }
+
+  .blog-title {
+    font-size: 1.75rem;
+  }
+
+  .blog-sub {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .blog-post {
+    padding: 1.4rem;
+    border-radius: 14px;
+  }
+
+  .post-title {
+    font-size: 1.1rem;
+  }
+
+  .post-text {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin-bottom: 1.25rem;
+  }
+
+  .vote-container {
+    gap: 0.8rem;
+  }
+
+  .vote-btn-circle {
+    padding: 0.7rem;
+  }
+}
+
+/* ============================================
+   RESPONSIVE STYLES - MOBILE (SMALL)
+   ============================================ */
+@media screen and (max-width: 480px) {
+  .blog-section {
+    padding: 1.5rem 4%;
+  }
+
+  .blog-title {
+    font-size: 1.5rem;
+  }
+
+  .blog-sub {
+    font-size: 0.9rem;
+    margin-bottom: 1.25rem;
+    padding: 0 0.5rem;
+  }
+
+  .blog-grid {
+    gap: 1rem;
+  }
+
+  .blog-post {
+    padding: 1.2rem;
+    border-radius: 12px;
+  }
+
+  .post-title {
+    font-size: 1.05rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .post-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .vote-container {
+    gap: 0.6rem;
+  }
+
+  .vote-btn-circle {
+    padding: 0.6rem;
+  }
+
+  .vote-count {
+    font-size: 0.65rem;
+    bottom: -0.4rem;
+  }
+}
+
+/* ============================================
+   RESPONSIVE STYLES - MOBILE (EXTRA SMALL)
+   ============================================ */
+@media screen and (max-width: 360px) {
+  .blog-section {
+    padding: 1.25rem 3%;
+  }
+
+  .blog-title {
+    font-size: 1.35rem;
+  }
+
+  .blog-sub {
+    font-size: 0.85rem;
+  }
+
+  .blog-post {
+    padding: 1rem;
+  }
+
+  .post-title {
+    font-size: 1rem;
+  }
+
+  .post-text {
+    font-size: 0.8rem;
+  }
+
+  .vote-btn-circle {
+    padding: 0.55rem;
+  }
 }
