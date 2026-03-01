@@ -16,7 +16,7 @@ const PROJECTS = [
   desc: 'Scalable backend job portal built with MERN, featuring authentication, role-based access, job management, applications, and secure REST APIs.',
   ss: '/job-portel.png',
   tech: ['React+Vite', 'Node.js', 'Express', 'RESTful APIs'],
-  live: '#',
+  live: 'https://ai-powered-job-portal-1-t5es.onrender.com/',
   code: 'https://github.com/JaydeepSingh44/AI-Powered-Job-Portal-'
   },
   
